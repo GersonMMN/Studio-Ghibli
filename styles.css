@@ -1,0 +1,98 @@
+/* =======RESET============================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    width: 35%;
+    height: auto;
+  }
+  
+  body {
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7o1UqwTqFhZnCHiL_ImyZSCgEgtFvVZoAqRJWs14MSm9w8zINDOEGUO9jvG6HLrmZajOP4asLgwAfX2sz6uvVEa38ELhPsmHdtEUQVNro3PrMlUlqjN65CWzzSmeBtWxHmjs3gGORwcaGRSB8ktJbbJ63bGusEOf7ibX6ttketOLEetfRyzbipr_HHg/s3840/Spirited%20Away%20Studio%20Ghibli%204K%20PC%20Desktop%20Wallpaper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* =======VARIABLES============================================ */
+  :root {
+    font-size: 150%;
+    --color: rgb(0, 174, 255);
+  }
+  
+  /* =======BASE================================================= */
+  body {
+    font: 400 1rem 'Nunito';
+    color: whitesmoke;
+  }
+  
+  h1 {
+    font: 400 1.8rem 'Nunito';
+    height: 7rem;
+  }
+  
+  .button {
+    color: var(--color);
+  }
+  
+  .button:hover {
+    opacity: 0.7;
+  }
+  
+  /* =======LAYOUT============================================== */
+  #header {
+    height: 10rem;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    color: var(--color);
+  }
+  
+  a {
+    color: whitesmoke;
+  }
+  
+  a:hover {
+    opacity: 0.7;
+  }
+  
+  .logo {
+    text-transform: uppercase;
+    font: 500 2.5rem 'Nunito';
+    color: var(--color);
+  }
+  
+  .logo span {
+    color: whitesmoke;
+  }
+
+  .container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-top: 50px;
+  }
+
+  footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    font-size: 0.9rem;
+    margin-top: 50px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+  
+  

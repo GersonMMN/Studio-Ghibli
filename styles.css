@@ -14,10 +14,8 @@
   }
   
   body {
-    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7o1UqwTqFhZnCHiL_ImyZSCgEgtFvVZoAqRJWs14MSm9w8zINDOEGUO9jvG6HLrmZajOP4asLgwAfX2sz6uvVEa38ELhPsmHdtEUQVNro3PrMlUlqjN65CWzzSmeBtWxHmjs3gGORwcaGRSB8ktJbbJ63bGusEOf7ibX6ttketOLEetfRyzbipr_HHg/s3840/Spirited%20Away%20Studio%20Ghibli%204K%20PC%20Desktop%20Wallpaper.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: rgb(136,237,255);
+background: radial-gradient(circle, rgba(136,237,255,1) 0%, rgba(0,216,255,1) 26%, rgba(39,83,206,1) 69%, rgba(0,35,132,1) 92%);
   }
   
   /* =======VARIABLES============================================ */
@@ -32,22 +30,24 @@
     color: whitesmoke;
   }
   
-  h1 {
-    font: 400 1.8rem 'Nunito';
-    height: 7rem;
-  }
-  
   .button {
     color: var(--color);
+    width: 5rem;
   }
   
+  .button img{
+    width: 100px;
+    height: 100px;
+  }
+
   .button:hover {
-    opacity: 0.7;
+    opacity: 0.5;
   }
   
   /* =======LAYOUT============================================== */
   #header {
-    height: 10rem;
+    height: 7rem;
+    
   }
   
   nav {
@@ -58,6 +58,8 @@
   
   a {
     color: whitesmoke;
+    text-decoration: underline;
+   
   }
   
   a:hover {
@@ -74,23 +76,65 @@
     color: whitesmoke;
   }
 
-  .container {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    background-color: rgba(0, 0, 0, 0.75);
-    border-radius: 0.5rem;
-    padding: 0.5rem;
-    margin-top: 50px;
+  .Totoro{
+    margin-left: 15.50rem;
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+
   }
 
-  footer {
+  .Filmografia{
+    margin-top: 2rem;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.75);
+    color:rgb(0, 174, 255); 
+    width: 100%;
+  }
+
+  p {
+    text-align: justify;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 2rem;
+  }
+
+  .Discografia{
+    display: flex;
+    justify-content:space-between
+    
+  }
+ 
+  .container {
+    margin-left: 8rem;
+    margin-right: 8rem;
+    background-color: rgba(0, 0, 0, 0.60);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-top: 30px;
+    
+  }
+
+  .video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 50%;  
+  }
+  .video-container iframe {
+    position: absolute;
+    margin-top: 2rem;
+    left: 8rem;
+    width: 70%;
+    height: 90%;
+}
+
+
+  footer p{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.60);
     color: #fff;
     font-size: 0.9rem;
     margin-top: 50px;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
     border-radius: 0.5rem;
     padding: 0.5rem;
 }
